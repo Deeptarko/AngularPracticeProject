@@ -1,0 +1,4 @@
+<div class="container">
+    <textarea  [(ngModel)]="noteValue" ></textarea>
+    <app-custom-btn (clicked)="handleClick($event,noteValue)"></app-custom-btn>
+</div>
